@@ -1,5 +1,5 @@
 body {
-  font-family: 'space mono', sans-serif;
+  font-family: 'Space Mono', monospace;
   color: #fff;
   margin: 0;
 }
@@ -51,7 +51,8 @@ h1 {
   font-weight: 300px;
   line-height: 64px;
   margin-bottom: 0;
-  font-family: 'BioRhyme';
+  -webkit-text-stroke: 1px #000;
+  font-family: 'BioRhyme', serif;
 }
 
 h2 {
