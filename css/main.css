@@ -34,6 +34,8 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+
+
 .button {
 	background-color: #31474d;
 	padding-top: 6px;
@@ -51,7 +53,7 @@ h1 {
   font-weight: 300px;
   line-height: 64px;
   margin-bottom: 0;
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 2px black;
   font-family: 'BioRhyme', serif;
 }
 
@@ -118,7 +120,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/hero2.jpg);
+  background-image: url(../images/newmediatechnologyLogo1.svg);
   background-position: center 75%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +136,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/classes.jpg);
+  background-image: url(../images/classeslogo1.svg);
   background-position: center 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +152,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/resume.jpg);
+  background-image: url(../images/resumelogo1.svg);
   background-position: center 10%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,7 +168,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/projects.jpg);
+  background-image: url(../images/projectslogo1.svg);
   background-position: center 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,7 +184,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/aboutme.jpg);
+  background-image: url(../images/aboutme1.svg);
   background-position: center 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +200,7 @@ footer p {
   padding-top: 160px;
   padding-bottom: 160px;
   background-color: #ddd;
-  background-image: url(../images/contact.jpg);
+  background-image: url(../images/contact1.svg);
   background-position: center 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,5 +212,14 @@ footer p {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 320px;
   background-color: #000;
 }
+
+.social ul li {
+  float: right;
+  list-style-type: none;
+  margin-left: 15px;
+  color: white;
+}
+
