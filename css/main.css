@@ -23,6 +23,22 @@ nav li {
 
 }
 
+.social {
+  float: bottom;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: white
+}
+
 nav a {
   color: #fff;
 	text-decoration: none;
@@ -32,6 +48,16 @@ nav ul li a:hover {
   background-color: #fff;
   color: #000;
   border-radius: 5px;
+}
+
+.social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-left: auto;
+  text-align: center;
+  display: inline;
 }
 
 
@@ -55,6 +81,8 @@ h1 {
   margin-bottom: 0;
   -webkit-text-stroke: 2px black;
   font-family: 'BioRhyme', serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -95,11 +123,17 @@ footer {
   color: #fff;
   font-size: 14px;
   background-color: #000000;
-  padding: 20px;
-}
-
-footer p {
-  margin: 0;
+  /* padding: 20px; */
+  padding-top: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 90%;
+  display: inline-block;
 }
 
  img {
@@ -210,16 +244,20 @@ footer p {
 
 .wrapper {
   max-width: 1280px;
+  max-height: auto;
   margin-right: auto;
   margin-left: auto;
   min-width: 320px;
   background-color: #000;
+
 }
 
 .social ul li {
-  float: right;
   list-style-type: none;
-  margin-left: 15px;
   color: white;
+  background-color: black;
+  text-align: right;
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 4px;
 }
-
